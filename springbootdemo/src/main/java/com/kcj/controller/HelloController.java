@@ -8,10 +8,11 @@ import javax.sql.DataSource;
 
 @RestController
 public class HelloController {
-    @Autowired
-    private DataSource dataSource;
+   /* @Autowired
+    private DataSource dataSource;*/
     @GetMapping("hello")
     public String hello(){
-        return "hello, spring boot!"+dataSource;
+       /* return "hello, spring boot!"+dataSource;*/
+        return "hello, spring boot!";
     }
 }
