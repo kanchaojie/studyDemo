@@ -13,6 +13,7 @@ public class HelloController {
     @GetMapping("hello")
     public String hello(){
        /* return "hello, spring boot!"+dataSource;*/
+        System.out.println("hello method is now running!");
         return "hello, spring boot!";
     }
 }
