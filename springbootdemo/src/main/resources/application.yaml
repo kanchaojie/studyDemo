@@ -8,7 +8,7 @@
 #spring.datasource.password=123
 #更改映射端口
 server:
-  port: 8088
+  port: 80
 # 设置com.kcj包的日志级别为debug org.springframework日志级别为debug
 logging:
   level:
