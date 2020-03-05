@@ -1,4 +1,7 @@
 package com.kcj.mapper;
 
-public class UserMapper {
+import com.kcj.pojo.User;
+import tk.mybatis.mapper.common.Mapper;
+
+public interface UserMapper extends Mapper<User> {
 }
