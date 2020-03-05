@@ -24,3 +24,11 @@ spring:
     url: jdbc:mysql://localhost:3306/leyou
     username: root
     password: 12345678
+#mybatis驼峰配置
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+#配置mapper文件映射（单表可以做一个通用mapper，不需要此配置）
+  #mapper-locations: classpath:mappers/*.xml
+  #别名扫描包（扫描pojo）
+  type-aliases-package: com.kcj.pojo
