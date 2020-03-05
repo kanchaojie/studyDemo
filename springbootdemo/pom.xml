@@ -30,11 +30,11 @@
             <artifactId>lombok</artifactId>
         </dependency>
         <!--引入Druid连接池依赖-->
-        <dependency>
+       <!-- <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.1.6</version>
-        </dependency>
+        </dependency>-->
         <!--spring中的jdbc连接和事务是配置中的重要一环，在SpringBoot中该如何处理呢？ 答案是不需要处理，我们只要找到SpringBoot提供的启动器即可
         jdbc启动器自带连接池HikariCP,HikariCP是性能最强的连接池
         -->
